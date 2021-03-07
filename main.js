@@ -107,4 +107,4 @@ console.log(abs(4))                                          // => 4
 console.log(abs(-7))                                         // => 7
 const factorial = n => n > 1 ? n * factorial(n-1) : n        // A function to compute factorial
 console.log(factorial(3))                                    // => 6   
-console.log(factorial(4))                                    // => 24   
+console.log(factorial(4))                                    // => 24.   
