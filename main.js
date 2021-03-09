@@ -127,3 +127,6 @@ console.log(Math.log(10))                                    // Natural logarith
 console.log(Math.log(100)/Math.LN10)                         // Base 10 logarithm of 100
 console.log(Math.log(512)/Math.LN2)                          // Base 2 logarithm of 512
 console.log(Math.exp(3))                                     // Math.E cubed
+console.log(Math.cbrt(27))                                   // => 3: Cube Root
+console.log(Math.hypot(3, 4))                                // => 5: square root of sum of squares of all args
+console.log(Math.log10(100))                                 // => 2: Base-10 logarithmm
