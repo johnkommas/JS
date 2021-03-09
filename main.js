@@ -107,4 +107,23 @@ console.log(abs(4))                                          // => 4
 console.log(abs(-7))                                         // => 7
 const factorial = n => n > 1 ? n * factorial(n-1) : n        // A function to compute factorial
 console.log(factorial(3))                                    // => 6   
-console.log(factorial(4))                                    // => 24.   
+console.log(factorial(4))                                    // => 24.
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                             // ARITHMETIC in JAVASCRIPT
+console.log(Math.pow(a[0], 2))                               // => 3 ** 2 = 9
+console.log(Math.round(3.4567))                              // round to the nearest integer
+console.log(Math.ceil(3.4567))                               // round up to the nearest integer
+console.log(Math.floor(3.4567))                              // round down to the nearest integer
+console.log(Math.abs(-5))                                    // 5: absolute value
+console.log(Math.max(3,4,5,6,7,12,345))                      // Return the largest argument
+console.log(Math.min(3,4,5,6,7,12,345))                      // Return the smallest argument
+console.log(Math.random()*10)                                // pseudo-random Number x where 0 <= x < 1.
+console.log(Math.PI)                                         // π                        
+console.log(Math.E)                                          // The base of the natural logarithm
+console.log(Math.sqrt(3))                                    // The aquare root of 3
+console.log(Math.pow(3, 1/2))                                // base to a specific power 
+console.log(Math.sin(5))                                     // Trigonometry: also Math.cos, Math.atan, etc.
+console.log(Math.log(10))                                    // Natural logarithm of 10
+console.log(Math.log(100)/Math.LN10)                         // Base 10 logarithm of 100
+console.log(Math.log(512)/Math.LN2)                          // Base 2 logarithm of 512
+console.log(Math.exp(3))                                     // Math.E cubed
